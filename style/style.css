@@ -6,3 +6,46 @@ body{
     color: #535353;
 }
 /* font-family: 'Open Sans', sans-serif; */
+.navigation{
+    border-bottom: 6px solid #F3EBDC;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navigation-benefits{
+    flex-basis: 68%;
+}
+
+.navigation-benefits-link{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.navigation-benefits-item{
+    font-size: 12px;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+    border-bottom:1px solid transparent ;
+    letter-spacing: 0.96px;
+}
+.navigation-benefits-item:hover{
+    border-bottom-color: black;
+}
+/* корзина и поиск */
+.navigation-search{
+    display: flex;
+    align-items: center;
+}
+/* тут не понятно как лучше сделать отступы внешние от корзины до поиска */
+.navigation-search-item{
+    margin-right: 12px;
+    display: block;
+    cursor: pointer;
+}
